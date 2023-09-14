@@ -79,22 +79,71 @@
 //)
 
 
-public class HelloWorld {
-    public static void main(String[] args) {
-        int x = 5 * 4 % 3;
-        System.out.println(x);
-    }
-
-//    public String getName() {
-////TODO: return the person's name
+//public class HelloWorld {
+//    public static void main(String[] args) {
+//        int x = 5 * 4 % 3;
+//        System.out.println(x);
 //    }
+//
+////    public String getName() {
+//////TODO: return the person's name
+////    }
+//
+//    public void setName(String name) {
+////TODO: change the name field to the passed value
+//    }
+//
+//    public void sayHello() {
+////TODO: print a message to the console using the person's name
+//    }
+//}
+//
+//public class Persons {
+//    private String name;
+//
+//    public Persons(String name) {
+//        this.name = name;
+//    }
+//
+//    public String getName() {
+//        return name;
+//    }
+//
+//    public void setName(String newName) {
+//        name = newName;
+//    }
+//
+//    public void sayHello() {
+//        System.out.println("Hello, my name is " + name);
+//    }
+//
+//    public static void main(String[] args) {
+//        // Creating an instance of the Person class
+//        Persons person = new Persons("Alice");
+//
+//        // Using the getName method
+//        System.out.println("Original Name: " + person.getName());
+//
+//        // Using the setName method
+//        person.setName("Bob");
+//        System.out.println("New Name: " + person.getName());
+//
+//        // Using the sayHello method
+//        person.sayHello();
+//    }
+//}
 
-    public void setName(String name) {
-//TODO: change the name field to the passed value
-    }
-
-    public void sayHello() {
-//TODO: print a message to the console using the person's name
-    }
-}
-
+//public class ControlFlowExercise{
+//    public static void main(String[] args) {
+//        int i = 5;  // Create an integer variable i with a value of 5
+//
+//        // Create a while loop that runs as long as i is less than or equal to 15
+//        while (i <= 15) {
+//            // Output the current value of i
+//            System.out.println("Current value of i: " + i);
+//
+//            // Increment i by one
+//            i++;
+//        }
+//    }
+//}
